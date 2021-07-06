@@ -1,0 +1,11 @@
+num = ('zero' ,'um', 'dois', 'três', "quatro", 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'quatoze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
+
+dado = input( 'Digite um número entre 0 e 20: ' )
+dadoint = int(dado)
+
+
+while dadoint >= 21 or dadoint < 0 :
+	print("Tente novamente. ")
+	dadoint = int(input( 'Digite um número entre 0 e 20: ' ))
+
+print("Você digitou o numero " + num[dadoint] )
