@@ -1,0 +1,8 @@
+import random 
+val_sort = ( random.randint(0,100), random.randint(1,10), random.randint(1,10), random.randint(1,10), random.randint(1,10))
+
+print("Os valores sorteados foram " + str(val_sort))
+ordem = sorted(val_sort)
+print(str(ordem))
+print('O maior valor sorteado foi ' + str(ordem[0]))
+print('O menor valor sorteado foi ' + str(ordem[-1]))
